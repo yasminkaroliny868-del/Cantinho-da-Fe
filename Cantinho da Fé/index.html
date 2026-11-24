@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantinho da Fé</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span>✝</span>
+            <div>
+                <h1>Cantinho da Fé</h1>
+                <p>Artigos Religiosos Católicos</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre">Sobre nós</a>
+            <a href="#pedido">Meu pedido</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="banner">
+    <img src="imagens/nossa-senhora.jfif"
+         alt="Cantinho da Fé - Nossa Senhora Aparecida">
+
+      <p id="status"></p>   
+</section>
+
+    <section class="categorias">
+        <h2>Encontre o que procura</h2>
+
+        <div class="categorias-lista">
+            <a href="#produtos">Terços</a>
+            <a href="#produtos">Bíblias</a>
+            <a href="#produtos">Imagens de Santos</a>
+            <a href="#produtos">Medalhas</a>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <h2>Nossos produtos</h2>
+        <p>Artigos religiosos para acompanhar sua caminhada de fé.</p>
+
+        <div id="lista-produtos" class="produtos"></div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <h2>Sobre nossa loja</h2>
+        <p>
+            O Cantinho da Fé é uma loja fictícia criada para oferecer
+            artigos religiosos católicos, levando carinho, fé e
+            devoção para cada pessoa.
+        </p>
+        <p>Que Nossa Senhora Aparecida abençoe sua família! 💙</p>
+    </section>
+
+    <section id="pedido" class="pedido">
+        <h2>Meu pedido 🛒</h2>
+
+        <div id="carrinho">
+            Seu carrinho está vazio.
+        </div>
+
+        <p id="total">Total: R$ 0,00</p>
+
+        <label for="quantidade">Quantidade:</label>
+        <input type="text" id="quantidade"
+               placeholder="Digite a quantidade">
+
+        <button onclick="finalizarPedido()">
+            Finalizar pedido
+        </button>
+
+        <p id="resultado"></p>
+        <p id="ultimo-pedido"></p>
+    </section>
+
+    <footer>
+        <h2>✝ Cantinho da Fé</h2>
+        <p>Artigos Religiosos Católicos</p>
+        <p>Que a fé esteja sempre presente em seu lar! 💙</p>
+        <p>© 2026 - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
