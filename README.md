@@ -1,4 +1,3 @@
-# Cantinho-da-Fe
 # Cantinho da Fé 💙
 
 O Cantinho da Fé é uma loja virtual de artigos religiosos católicos, criada como projeto acadêmico.
